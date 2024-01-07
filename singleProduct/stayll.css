@@ -1,0 +1,141 @@
+.header-p {
+  color: var(--White, #fff);
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 1.92px;
+  margin-left: 350px;
+  margin-top: 5px;
+}
+.header-li {
+  color: var(--White, #fff);
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 1.92px;
+  text-decoration-line: underline;
+  list-style: none;
+}
+body {
+  background: #000;
+}
+.my-nav {
+  width: 200px;
+}
+.rayt {
+  position: absolute;
+  top: 250px;
+  left: 750px;
+}
+.my-span {
+  color: #a4a4a4;
+  font-family: SF Pro Text;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration-line: strikethrough;
+}
+.my-posst {
+  color: var(--Black, #161c24);
+  font-family: SF Pro Text;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.url {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(0, 102, 255);
+}
+.pname {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.ratings i {
+  color: rgb(255, 136, 0);
+}
+.price {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+.size {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.size p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.psize {
+  width: 60px;
+  height: 30px;
+  border: 1px solid #ff5e00;
+  color: #000;
+  text-align: center;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.psize.active {
+  border-width: 1.5px;
+  color: #ff5e00;
+  font-weight: 500;
+}
+.quantity {
+  display: flex;
+}
+.quantity p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.quantity input {
+  width: 40px;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
+  margin-left: 15px;
+}
+.btn-box {
+  display: flex;
+  margin-top: 40px;
+}
+.btn-box button {
+  font-size: 18px;
+  padding: 8px 25px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+.cart-btn {
+  background-color: #ff5e00;
+  margin-right: 20px;
+}
+.buy-btn {
+  background-color: #00aeff;
+}
+.cart-btn:hover {
+  background-color: #ff3c00;
+}
+.buy-btn:hover {
+  background-color: #0066ff;
+}
+li {
+  color: var(--White, #fff);
+
+  /* 16/light 16 \ 26 */
+  font-family: SF Pro Text;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px; /* 162.5% */
+}
